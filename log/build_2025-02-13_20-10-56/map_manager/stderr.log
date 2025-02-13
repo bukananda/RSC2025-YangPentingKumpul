@@ -1,0 +1,12 @@
+/usr/bin/ld: cannot find -ladd_subscribe: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/map_publish.dir/build.make:160: map_publish] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/map_publish.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/aqib/ros_learning/ros2_3/src/map_manager/src/add_obstacle.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmap_manager/srv/add_obstacle.hpp: No such file or directory
+    2 | #include [01;31m[K"map_manager/srv/add_obstacle.hpp"[m[K  // Pastikan header service yang benar
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/add_obstacle.dir/build.make:76: CMakeFiles/add_obstacle.dir/src/add_obstacle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:649: CMakeFiles/add_obstacle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

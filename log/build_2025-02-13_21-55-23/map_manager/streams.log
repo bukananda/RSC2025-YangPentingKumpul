@@ -1,0 +1,211 @@
+[0.010s] Invoking command in '/home/aqib/ros_learning/ros2_3/build/map_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/aqib/ros_learning/ros2_3/build/map_manager -- -j12 -l12
+[0.049s] [  1%] Built target map_manager__cpp
+[0.050s] [ 11%] Built target map_manager__rosidl_generator_c
+[0.053s] [ 15%] Built target map_subscribe
+[0.058s] [ 15%] Built target ament_cmake_python_copy_map_manager
+[0.069s] [ 24%] Built target map_manager__rosidl_typesupport_fastrtps_cpp
+[0.069s] [ 33%] Built target map_manager__rosidl_typesupport_introspection_cpp
+[0.069s] [ 43%] Built target map_manager__rosidl_typesupport_cpp
+[0.071s] [ 52%] Built target map_manager__rosidl_typesupport_introspection_c
+[0.071s] [ 62%] Built target map_manager__rosidl_typesupport_fastrtps_c
+[0.073s] [ 71%] Built target map_manager__rosidl_typesupport_c
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target map_publish[0m
+[0.089s] [ 71%] Built target map_manager
+[0.091s] [ 75%] Built target add_obstacle
+[0.093s] [ 79%] Built target map_publish
+[0.105s] [ 81%] Built target map_manager__py
+[0.122s] [ 88%] Built target map_manager__rosidl_generator_py
+[0.139s] [ 96%] Built target map_manager__rosidl_typesupport_c__pyext
+[0.139s] [ 96%] Built target map_manager__rosidl_typesupport_introspection_c__pyext
+[0.139s] [100%] Built target map_manager__rosidl_typesupport_fastrtps_c__pyext
+[0.264s] running egg_info
+[0.265s] writing map_manager.egg-info/PKG-INFO
+[0.265s] writing dependency_links to map_manager.egg-info/dependency_links.txt
+[0.265s] writing top-level names to map_manager.egg-info/top_level.txt
+[0.269s] reading manifest file 'map_manager.egg-info/SOURCES.txt'
+[0.269s] writing manifest file 'map_manager.egg-info/SOURCES.txt'
+[0.291s] [100%] Built target ament_cmake_python_build_map_manager_egg
+[0.300s] Invoked command in '/home/aqib/ros_learning/ros2_3/build/map_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/aqib/ros_learning/ros2_3/build/map_manager -- -j12 -l12
+[0.308s] Invoking command in '/home/aqib/ros_learning/ros2_3/build/map_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/aqib/ros_learning/ros2_3/build/map_manager
+[0.314s] -- Install configuration: ""
+[0.314s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/ament_index/resource_index/rosidl_interfaces/map_manager
+[0.314s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager
+[0.314s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv
+[0.314s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/add_obstacle.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/add_victim.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__functions.c
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__functions.c
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__struct.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__struct.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__functions.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__functions.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/map_state.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__struct.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__functions.c
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__functions.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/rosidl_generator_c__visibility_control.h
+[0.315s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/library_path.sh
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/library_path.dsv
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_generator_c.so
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_fastrtps_c.h
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_fastrtps_c.h
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_fastrtps_c.h
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_typesupport_fastrtps_c.so
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/add_obstacle.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__traits.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__builder.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__builder.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__traits.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__struct.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__struct.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/add_victim.hpp
+[0.316s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/map_state.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__struct.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__builder.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__traits.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/dds_fastrtps
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_fastrtps_cpp.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/dds_fastrtps
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_typesupport_fastrtps_cpp.so
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_introspection_c.h
+[0.317s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_introspection_c.h
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.c
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.c
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.c
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_introspection_c.h
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_typesupport_introspection_c.so
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_typesupport_c.so
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.cpp
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_introspection_cpp.hpp
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_introspection_cpp.hpp
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.cpp
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.cpp
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_introspection_cpp.hpp
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_typesupport_introspection_cpp.so
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_typesupport_cpp.so
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/pythonpath.sh
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/pythonpath.dsv
+[0.318s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info
+[0.318s] -- Installing: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/top_level.txt
+[0.318s] -- Installing: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.318s] -- Installing: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.318s] -- Installing: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/PKG-INFO
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/__init__.py
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/_map_manager_s.ep.rosidl_typesupport_c.c
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/_map_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/libmap_manager__rosidl_generator_py.so
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/__init__.py
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_obstacle.py
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_obstacle_s.c
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_victim.py
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_victim_s.c
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/_map_manager_s.ep.rosidl_typesupport_introspection_c.c
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/__init__.py
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/_map_state_s.c
+[0.319s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/_map_state.py
+[0.348s] Listing '/home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager'...
+[0.348s] Listing '/home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg'...
+[0.349s] Listing '/home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv'...
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/libmap_manager__rosidl_generator_py.so
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/msg/MapState.idl
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddObstacle.idl
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddVictim.idl
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/msg/MapState.msg
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddObstacle.srv
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddObstacle_Request.msg
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddObstacle_Response.msg
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddVictim.srv
+[0.353s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddVictim_Request.msg
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/srv/AddVictim_Response.msg
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/map_manager/map_publish
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/map_manager/map_subscribe
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/lib/map_manager/add_obstacle
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/ament_index/resource_index/package_run_dependencies/map_manager
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/ament_index/resource_index/parent_prefix_path/map_manager
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/ament_prefix_path.sh
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/ament_prefix_path.dsv
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/path.sh
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/environment/path.dsv
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/local_setup.bash
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/local_setup.sh
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/local_setup.zsh
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/local_setup.dsv
+[0.354s] -- Installing: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/package.dsv
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/ament_index/resource_index/packages/map_manager
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_cExport.cmake
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_cExport-noconfig.cmake
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cExport.cmake
+[0.354s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_cppExport.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cExport.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cExport.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cExport-noconfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cppExport.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cppExport.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cppExport-noconfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_pyExport.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_pyExport-noconfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/rosidl_cmake-extras.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/ament_cmake_export_targets-extras.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_managerConfig.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/cmake/map_managerConfig-version.cmake
+[0.355s] -- Up-to-date: /home/aqib/ros_learning/ros2_3/install/map_manager/share/map_manager/package.xml
+[0.357s] Invoked command in '/home/aqib/ros_learning/ros2_3/build/map_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/aqib/ros_learning/ros2_3/build/map_manager

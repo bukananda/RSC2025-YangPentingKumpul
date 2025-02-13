@@ -1,0 +1,10 @@
+msg/MapState.idl
+msg/MapState.msg
+srv/AddObstacle.idl
+srv/AddObstacle.srv
+srv/AddObstacle_Request.msg
+srv/AddObstacle_Response.msg
+srv/AddVictim.idl
+srv/AddVictim.srv
+srv/AddVictim_Request.msg
+srv/AddVictim_Response.msg

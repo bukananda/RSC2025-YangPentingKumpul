@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "map_manager__py",
+		"source" : "/home/aqib/ros_learning/ros2_3/build/map_manager/map_manager__py"
+	}
+}

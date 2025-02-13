@@ -1,0 +1,86 @@
+[0.008s] Invoking command in '/home/aqib/ros_learning/ros2_3/build/map_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/aqib/ros_learning/ros2_3/src/map_manager -DCMAKE_INSTALL_PREFIX=/home/aqib/ros_learning/ros2_3/install/map_manager
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.133s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.139s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.201s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.325s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.403s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.442s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.446s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.453s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.524s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.527s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.590s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.612s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.650s] -- Looking for pthread.h
+[0.698s] -- Looking for pthread.h - found
+[0.698s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.750s] -- Found Threads: TRUE  
+[0.788s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.010s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.418s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.420s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.442s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.442s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.442s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.460s] -- Found PythonExtra: .so  
+[1.508s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.526s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.526s] -- Configured cppcheck include dirs: 
+[1.526s] -- Configured cppcheck exclude dirs and/or files: 
+[1.527s] -- Added test 'lint_cmake' to check CMake code style
+[1.528s] -- Added test 'uncrustify' to check C / C++ code style
+[1.528s] -- Configured uncrustify additional arguments: 
+[1.528s] -- Added test 'xmllint' to check XML markup files
+[1.530s] -- Configuring done
+[1.554s] -- Generating done
+[1.563s] -- Build files have been written to: /home/aqib/ros_learning/ros2_3/build/map_manager
+[1.572s] Invoked command in '/home/aqib/ros_learning/ros2_3/build/map_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/aqib/ros_learning/ros2_3/src/map_manager -DCMAKE_INSTALL_PREFIX=/home/aqib/ros_learning/ros2_3/install/map_manager
+[1.573s] Invoking command in '/home/aqib/ros_learning/ros2_3/build/map_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/aqib/ros_learning/ros2_3/build/map_manager -- -j12 -l12
+[1.601s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.607s] [  5%] [32mBuilding CXX object CMakeFiles/map_publish.dir/src/map_publisher_function.cpp.o[0m
+[1.607s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.607s] [  7%] [32mBuilding CXX object CMakeFiles/map_subscribe.dir/src/map_subscriber_function.cpp.o[0m
+[1.613s] [  7%] Built target ament_cmake_python_copy_map_manager
+[1.751s] [01m[K/home/aqib/ros_learning/ros2_3/src/map_manager/src/map_publisher_function.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kmap_manager/msg/MapState.hpp: No such file or directory
+[1.751s]    23 | #include [01;31m[K"map_manager/msg/MapState.hpp"[m[K
+[1.751s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.752s] compilation terminated.
+[1.754s] gmake[2]: *** [CMakeFiles/map_publish.dir/build.make:76: CMakeFiles/map_publish.dir/src/map_publisher_function.cpp.o] Error 1
+[1.754s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/map_publish.dir/all] Error 2
+[1.754s] gmake[1]: *** Waiting for unfinished jobs....
+[1.820s] running egg_info
+[1.821s] creating map_manager.egg-info
+[1.821s] writing map_manager.egg-info/PKG-INFO
+[1.821s] writing dependency_links to map_manager.egg-info/dependency_links.txt
+[1.821s] writing top-level names to map_manager.egg-info/top_level.txt
+[1.822s] writing manifest file 'map_manager.egg-info/SOURCES.txt'
+[1.823s] reading manifest file 'map_manager.egg-info/SOURCES.txt'
+[1.824s] writing manifest file 'map_manager.egg-info/SOURCES.txt'
+[1.844s] [  7%] Built target ament_cmake_python_build_map_manager_egg
+[1.922s] [  7%] Built target map_manager__cpp
+[1.934s] [ 13%] [32mBuilding C object CMakeFiles/map_manager__rosidl_generator_c.dir/rosidl_generator_c/map_manager/srv/detail/add_obstacle__functions.c.o[0m
+[1.935s] [ 13%] [32mBuilding C object CMakeFiles/map_manager__rosidl_generator_c.dir/rosidl_generator_c/map_manager/msg/detail/map_state__functions.c.o[0m
+[1.935s] [ 13%] [32mBuilding C object CMakeFiles/map_manager__rosidl_generator_c.dir/rosidl_generator_c/map_manager/srv/detail/add_victim__functions.c.o[0m
+[1.975s] [ 15%] [32m[1mLinking C shared library libmap_manager__rosidl_generator_c.so[0m
+[2.001s] [ 15%] Built target map_manager__rosidl_generator_c
+[6.825s] [ 17%] [32m[1mLinking CXX executable map_subscribe[0m
+[7.055s] [ 17%] Built target map_subscribe
+[7.055s] gmake: *** [Makefile:146: all] Error 2
+[7.057s] Invoked command in '/home/aqib/ros_learning/ros2_3/build/map_manager' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aqib/ros_learning/ros2_test/install/launch_testing_examples:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_pointcloud_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_subscriber:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_service:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_publisher:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_server:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_minimal_action_client:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_guard_conditions:/home/aqib/ros_learning/ros2_test/install/examples_rclpy_executors:/home/aqib/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/aqib/ros_learning/ros2_3/build/map_manager -- -j12 -l12

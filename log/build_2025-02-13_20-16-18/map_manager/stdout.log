@@ -1,0 +1,26 @@
+[  3%] Built target map_manager__cpp
+[ 11%] Built target map_manager__rosidl_generator_c
+[ 15%] Built target map_subscribe
+[ 15%] Built target ament_cmake_python_copy_map_manager
+[ 24%] Built target map_manager__rosidl_typesupport_introspection_c
+[ 33%] Built target map_manager__rosidl_typesupport_fastrtps_c
+[ 43%] Built target map_manager__rosidl_typesupport_fastrtps_cpp
+[ 52%] Built target map_manager__rosidl_typesupport_introspection_cpp
+[ 62%] Built target map_manager__rosidl_typesupport_c
+[ 71%] Built target map_manager__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target add_obstacle[0m
+[ 71%] Built target map_manager
+[ 75%] Built target map_publish
+[ 77%] [32mBuilding CXX object CMakeFiles/add_obstacle.dir/src/add_obstacle.cpp.o[0m
+[ 79%] Built target map_manager__py
+[ 86%] Built target map_manager__rosidl_generator_py
+[ 98%] Built target map_manager__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target map_manager__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target map_manager__rosidl_typesupport_c__pyext
+running egg_info
+writing map_manager.egg-info/PKG-INFO
+writing dependency_links to map_manager.egg-info/dependency_links.txt
+writing top-level names to map_manager.egg-info/top_level.txt
+reading manifest file 'map_manager.egg-info/SOURCES.txt'
+writing manifest file 'map_manager.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_map_manager_egg
