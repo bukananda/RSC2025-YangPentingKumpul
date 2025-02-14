@@ -9,3 +9,6 @@ Anggota kelompok:
 6. Nathanael Shane Bennet
 
 Dokumentasi : https://drive.google.com/file/d/1ya17rdYyVxRiZgHh7qMM2w1REGdeXXiv/view?usp=sharing
+
+### RQT Graph
+![alt text](https://github.com/bukananda/RSC2025-YangPentingKumpul/blob/master/ROS2_rqt_graph.png)
