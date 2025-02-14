@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/audric/Documents/GitHub/Tugas-Aksantara/src/map_manager/src/add_victim.cpp" "CMakeFiles/add_victim.dir/src/add_victim.cpp.o" "gcc" "CMakeFiles/add_victim.dir/src/add_victim.cpp.o.d"
+  "/home/akmal/Documents/Tugas_Aksantara/Tugas-Aksantara/src/map_manager/src/add_victim.cpp" "CMakeFiles/add_victim.dir/src/add_victim.cpp.o" "gcc" "CMakeFiles/add_victim.dir/src/add_victim.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager/CMakeFiles/map_manager__rosidl_typesupport_cpp.dir/DependInfo.cmake"
+  "/home/akmal/Documents/Tugas_Aksantara/Tugas-Aksantara/build/map_manager/CMakeFiles/map_manager__rosidl_typesupport_cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
