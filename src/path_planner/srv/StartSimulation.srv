@@ -1,0 +1,7 @@
+float32 initial_energy
+float32 energy_per_meter
+int32 passenger_capacity
+---
+bool success
+string message
+
