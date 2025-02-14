@@ -8,19 +8,20 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/StartSimulation.srv"
-)
-
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(custom_msgs REQUIRED)
+find_package(map_manager REQUIRED)
 find_package(std_srvs REQUIRED)
 
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/DroneStatus.msg"
+  "srv/StartSimulation.srv"
+)
+
 add_executable(dstar_planner src/dstar_planner.cpp)
-ament_target_dependencies(dstar_planner rclcpp std_msgs geometry_msgs custom_msgs std_srvs)
+ament_target_dependencies(dstar_planner rclcpp std_msgs geometry_msgs map_manager std_srvs)
 
 install(TARGETS
   dstar_planner

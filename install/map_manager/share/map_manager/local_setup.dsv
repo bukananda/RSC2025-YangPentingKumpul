@@ -1,4 +1,0 @@
-source;share/map_manager/environment/ament_prefix_path.sh
-source;share/map_manager/environment/library_path.sh
-source;share/map_manager/environment/path.sh
-source;share/map_manager/environment/pythonpath.sh

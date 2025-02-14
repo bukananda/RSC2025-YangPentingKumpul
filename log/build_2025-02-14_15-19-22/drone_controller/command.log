@@ -1,2 +1,0 @@
-Invoking command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller -- -j16 -l16
-Invoked command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller -- -j16 -l16

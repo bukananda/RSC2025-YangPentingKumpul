@@ -1,8 +1,8 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/int32_multi_array.hpp"
 #include "geometry_msgs/msg/point.hpp"
-#include "custom_msgs/msg/drone_status.hpp"
-#include "custom_msgs/msg/map_state.hpp"
+#include "path_planner/msg/drone_status.hpp"
+#include "map_manager/msg/map_state.hpp"
 #include "path_planner/srv/start_simulation.hpp"
 #include <queue>
 #include <vector>
@@ -14,13 +14,13 @@ public:
     DStarPlanner()
         : Node("dstar_planner"), simulation_running_(false), energy_(1000.0), energy_per_meter_(1.0), passenger_capacity_(2), passengers_(0) {
         
-        map_sub_ = this->create_subscription<custom_msgs::msg::MapState>(
-            "/map_state", 10, std::bind(&DStarPlanner::mapCallback, this, std::placeholders::_1));
-        path_pub_ = this->create_publisher<std_msgs::msg::Int32MultiArray>("/path_visualization", 10);
-        status_pub_ = this->create_publisher<custom_msgs::msg::DroneStatus>("/drone_status", 10);
+        map_sub_ = this->create_subscription<map_manager::msg::MapState>(
+            "map_state", 10, std::bind(&DStarPlanner::mapCallback, this, std::placeholders::_1));
+        path_pub_ = this->create_publisher<std_msgs::msg::Int32MultiArray>("path_visualization", 10);
+        status_pub_ = this->create_publisher<path_planner::msg::DroneStatus>("drone_status", 10);
 
         start_service_ = this->create_service<path_planner::srv::StartSimulation>(
-            "/start_simulation", std::bind(&DStarPlanner::startSimulation, this, std::placeholders::_1, std::placeholders::_2));
+            "start_simulation", std::bind(&DStarPlanner::startSimulation, this, std::placeholders::_1, std::placeholders::_2));
     }
 
 private:
@@ -31,9 +31,9 @@ private:
     int passengers_;
 
     rclcpp::Service<path_planner::srv::StartSimulation>::SharedPtr start_service_;
-    rclcpp::Subscription<custom_msgs::msg::MapState>::SharedPtr map_sub_;
+    rclcpp::Subscription<map_manager::msg::MapState>::SharedPtr map_sub_;
     rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr path_pub_;
-    rclcpp::Publisher<custom_msgs::msg::DroneStatus>::SharedPtr status_pub_;
+    rclcpp::Publisher<path_planner::msg::DroneStatus>::SharedPtr status_pub_;
 
     void startSimulation(const std::shared_ptr<path_planner::srv::StartSimulation::Request> request,
                          std::shared_ptr<path_planner::srv::StartSimulation::Response> response) {
@@ -56,7 +56,7 @@ private:
         RCLCPP_INFO(this->get_logger(), "Simulation Started!");
     }
 
-    void mapCallback(const custom_msgs::msg::MapState::SharedPtr msg) {
+    void mapCallback(const map_manager::msg::MapState::SharedPtr msg) {
         if (!simulation_running_) return;
 
         std::vector<int> grid = msg->grid_data;
@@ -69,9 +69,12 @@ private:
         path_msg.data = path;
         path_pub_->publish(path_msg);
 
-        custom_msgs::msg::DroneStatus status_msg;
+        f
+
+        map_manager::msg::DroneStatus status_msg;
         status_msg.energy = energy_;
         status_msg.passengers = passengers_;
+        status_msg.position = (0.0, 0.0, 0.0)
 
         if (passengers_ >= passenger_capacity_ || energy_needed > energy_) {
             status_msg.status = "RETURN_TO_START";
