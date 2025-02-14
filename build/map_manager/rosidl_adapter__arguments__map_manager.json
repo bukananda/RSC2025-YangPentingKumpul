@@ -1,8 +1,8 @@
 {
   "package_name": "map_manager",
   "non_idl_tuples": [
-    "/home/aqib/ros_learning/ros2_3/src/map_manager:msg/MapState.msg",
-    "/home/aqib/ros_learning/ros2_3/src/map_manager:srv/AddObstacle.srv",
-    "/home/aqib/ros_learning/ros2_3/src/map_manager:srv/AddVictim.srv"
+    "/home/audric/Documents/GitHub/Tugas-Aksantara/src/map_manager:msg/MapState.msg",
+    "/home/audric/Documents/GitHub/Tugas-Aksantara/src/map_manager:srv/AddObstacle.srv",
+    "/home/audric/Documents/GitHub/Tugas-Aksantara/src/map_manager:srv/AddVictim.srv"
   ]
 }

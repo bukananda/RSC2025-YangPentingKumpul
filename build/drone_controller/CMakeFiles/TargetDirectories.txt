@@ -1,0 +1,10 @@
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/uninstall.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/drone_controller_uninstall.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/simulation_service.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/test.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/edit_cache.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/rebuild_cache.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/list_install_components.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/install.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/install/local.dir
+/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/install/strip.dir

@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller -- -j16 -l16
+[0.032s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.136s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.141s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.172s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.173s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.277s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.277s]   ament_target_dependencies() the passed package name 'std_srvs' was not
+[0.277s]   found before
+[0.277s] Call Stack (most recent call first):
+[0.277s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.277s] 
+[0.277s] [0m
+[0.278s] -- Configuring incomplete, errors occurred!
+[0.278s] See also "/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller/CMakeFiles/CMakeOutput.log".
+[0.283s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.297s] Invoked command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller -- -j16 -l16

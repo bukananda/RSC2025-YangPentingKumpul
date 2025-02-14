@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller -- -j16 -l16
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target simulation_service[0m
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/simulation_service.dir/src/simulation_service.cpp.o[0m
+[2.309s] [100%] [32m[1mLinking CXX executable simulation_service[0m
+[2.400s] [100%] Built target simulation_service
+[2.410s] Invoked command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller -- -j16 -l16
+[2.412s] Invoking command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller
+[2.418s] -- Install configuration: ""
+[2.418s] -- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/lib/drone_controller/simulation_service
+[2.419s] -- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/lib/drone_controller/simulation_service" to ""
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/ament_index/resource_index/package_run_dependencies/drone_controller
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/ament_index/resource_index/parent_prefix_path/drone_controller
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/ament_prefix_path.sh
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/ament_prefix_path.dsv
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/path.sh
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/path.dsv
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.bash
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.sh
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.zsh
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.dsv
+[2.419s] -- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/package.dsv
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/ament_index/resource_index/packages/drone_controller
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/cmake/drone_controllerConfig.cmake
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/cmake/drone_controllerConfig-version.cmake
+[2.419s] -- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/package.xml
+[2.421s] Invoked command in '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller

@@ -8,6 +8,18 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_srvs REQUIRED)
+
+add_executable(simulation_service src/simulation_service.cpp)
+ament_target_dependencies(simulation_service rclcpp std_srvs)
+install(TARGETS
+  simulation_service
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
+
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

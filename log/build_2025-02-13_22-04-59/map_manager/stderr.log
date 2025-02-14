@@ -1,8 +1,0 @@
-[01m[K/home/aqib/ros_learning/ros2_3/src/map_manager/src/add_victim.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmap_manager/srv/add_Victim.hpp: No such file or directory
-    2 | #include [01;31m[K"map_manager/srv/add_Victim.hpp"[m[K  // Pastikan header service yang benar
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/add_victim.dir/build.make:76: CMakeFiles/add_victim.dir/src/add_victim.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:679: CMakeFiles/add_victim.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

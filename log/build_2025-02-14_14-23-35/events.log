@@ -1,0 +1,498 @@
+[0.000000] (-) TimerEvent: {}
+[0.000258] (drone_controller) JobQueued: {'identifier': 'drone_controller', 'dependencies': OrderedDict()}
+[0.000294] (map_manager) JobQueued: {'identifier': 'map_manager', 'dependencies': OrderedDict()}
+[0.000322] (drone_controller) JobStarted: {'identifier': 'drone_controller'}
+[0.004305] (map_manager) JobStarted: {'identifier': 'map_manager'}
+[0.006757] (drone_controller) JobProgress: {'identifier': 'drone_controller', 'progress': 'cmake'}
+[0.007007] (drone_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/audric/Documents/GitHub/Tugas-Aksantara/src/drone_controller', '-DCMAKE_INSTALL_PREFIX=/home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller'], 'cwd': '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'audric'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/audric'), ('OLDPWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2117'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5936'), ('COLCON_PREFIX_PATH', '/home/audric/handson1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'audric'), ('JOURNAL_STREAM', '8:15185'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'audric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LordPavilion:@/tmp/.ICE-unix/1889,unix/LordPavilion:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '863375f461cb41c886b1450e86522e9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:da0d3090-576d-4c5e-bcb3-5ca57662d828'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble')]), 'shell': False}
+[0.009398] (map_manager) JobProgress: {'identifier': 'map_manager', 'progress': 'cmake'}
+[0.009716] (map_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/audric/Documents/GitHub/Tugas-Aksantara/src/map_manager', '-DCMAKE_INSTALL_PREFIX=/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager'], 'cwd': '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'audric'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/audric'), ('OLDPWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2117'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5936'), ('COLCON_PREFIX_PATH', '/home/audric/handson1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'audric'), ('JOURNAL_STREAM', '8:15185'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'audric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LordPavilion:@/tmp/.ICE-unix/1889,unix/LordPavilion:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '863375f461cb41c886b1450e86522e9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:da0d3090-576d-4c5e-bcb3-5ca57662d828'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble')]), 'shell': False}
+[0.047933] (drone_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.051210] (map_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.086387] (drone_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.090927] (map_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.091433] (drone_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.097818] (map_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099333] (-) TimerEvent: {}
+[0.148362] (drone_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.150222] (map_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152187] (drone_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.152344] (drone_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.152794] (drone_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.154088] (map_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.154236] (map_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.154447] (map_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.155169] (drone_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.156081] (map_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199452] (-) TimerEvent: {}
+[0.212399] (drone_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.212988] (map_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.216301] (drone_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.216486] (drone_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.216728] (drone_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.216875] (map_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.217055] (map_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.217307] (map_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.218094] (drone_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.218563] (map_manager) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299585] (-) TimerEvent: {}
+[0.313226] (map_manager) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.313943] (drone_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.367101] (map_manager) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.367455] (drone_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.388390] (map_manager) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.389198] (drone_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.390865] (map_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.391736] (drone_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.395042] (map_manager) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.395905] (drone_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399703] (-) TimerEvent: {}
+[0.402905] (map_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.403581] (drone_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.411290] (map_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.411801] (drone_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.434180] (drone_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.434394] (map_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.435566] (drone_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.435704] (map_manager) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499629] (drone_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.499799] (-) TimerEvent: {}
+[0.503220] (map_manager) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.516275] (drone_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.519974] (map_manager) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.544475] (drone_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.548705] (drone_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.550860] (map_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.555200] (map_manager) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.599926] (-) TimerEvent: {}
+[0.604564] (map_manager) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.604880] (map_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.605822] (drone_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.606293] (drone_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.663161] (drone_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.663585] (map_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.663871] (drone_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.664335] (map_manager) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.694889] (drone_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.695487] (map_manager) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.699979] (-) TimerEvent: {}
+[0.745211] (drone_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.745847] (drone_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.746608] (drone_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.750058] (drone_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[0.752072] (drone_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller\n'}
+[0.760415] (drone_controller) CommandEnded: {'returncode': 0}
+[0.761926] (drone_controller) JobProgress: {'identifier': 'drone_controller', 'progress': 'build'}
+[0.761998] (drone_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller', '--', '-j16', '-l16'], 'cwd': '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'audric'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/audric'), ('OLDPWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2117'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5936'), ('COLCON_PREFIX_PATH', '/home/audric/handson1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'audric'), ('JOURNAL_STREAM', '8:15185'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'audric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LordPavilion:@/tmp/.ICE-unix/1889,unix/LordPavilion:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '863375f461cb41c886b1450e86522e9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:da0d3090-576d-4c5e-bcb3-5ca57662d828'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble')]), 'shell': False}
+[0.797936] (drone_controller) CommandEnded: {'returncode': 0}
+[0.798568] (drone_controller) JobProgress: {'identifier': 'drone_controller', 'progress': 'install'}
+[0.800039] (-) TimerEvent: {}
+[0.806618] (drone_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller'], 'cwd': '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'audric'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/audric'), ('OLDPWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2117'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5936'), ('COLCON_PREFIX_PATH', '/home/audric/handson1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'audric'), ('JOURNAL_STREAM', '8:15185'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'audric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LordPavilion:@/tmp/.ICE-unix/1889,unix/LordPavilion:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '863375f461cb41c886b1450e86522e9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:da0d3090-576d-4c5e-bcb3-5ca57662d828'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/drone_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble')]), 'shell': False}
+[0.813552] (drone_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.813755] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/ament_index/resource_index/package_run_dependencies/drone_controller\n'}
+[0.813870] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/ament_index/resource_index/parent_prefix_path/drone_controller\n'}
+[0.814008] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/ament_prefix_path.sh\n'}
+[0.814109] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/ament_prefix_path.dsv\n'}
+[0.814211] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/path.sh\n'}
+[0.814311] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/environment/path.dsv\n'}
+[0.814407] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.bash\n'}
+[0.814511] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.sh\n'}
+[0.814616] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.zsh\n'}
+[0.814716] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/local_setup.dsv\n'}
+[0.814814] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/package.dsv\n'}
+[0.814951] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/ament_index/resource_index/packages/drone_controller\n'}
+[0.815081] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/cmake/drone_controllerConfig.cmake\n'}
+[0.815160] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/cmake/drone_controllerConfig-version.cmake\n'}
+[0.815259] (drone_controller) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/drone_controller/share/drone_controller/package.xml\n'}
+[0.816872] (drone_controller) CommandEnded: {'returncode': 0}
+[0.826742] (drone_controller) JobEnded: {'identifier': 'drone_controller', 'rc': 0}
+[0.889364] (map_manager) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900153] (-) TimerEvent: {}
+[1.000612] (-) TimerEvent: {}
+[1.101044] (-) TimerEvent: {}
+[1.120552] (map_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201170] (-) TimerEvent: {}
+[1.210428] (map_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.224363] (map_manager) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.225505] (map_manager) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.243915] (map_manager) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.244108] (map_manager) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.244185] (map_manager) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.244251] (map_manager) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.256962] (map_manager) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.286596] (map_manager) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.297637] (map_manager) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.297934] (map_manager) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.298056] (map_manager) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.298402] (map_manager) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.299109] (map_manager) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.299162] (map_manager) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.299396] (map_manager) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.300951] (map_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301260] (-) TimerEvent: {}
+[1.332410] (map_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[1.341881] (map_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager\n'}
+[1.352494] (map_manager) CommandEnded: {'returncode': 0}
+[1.354225] (map_manager) JobProgress: {'identifier': 'map_manager', 'progress': 'build'}
+[1.354253] (map_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager', '--', '-j16', '-l16'], 'cwd': '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'audric'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/audric'), ('OLDPWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2117'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5936'), ('COLCON_PREFIX_PATH', '/home/audric/handson1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'audric'), ('JOURNAL_STREAM', '8:15185'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'audric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LordPavilion:@/tmp/.ICE-unix/1889,unix/LordPavilion:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '863375f461cb41c886b1450e86522e9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:da0d3090-576d-4c5e-bcb3-5ca57662d828'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble')]), 'shell': False}
+[1.385813] (map_manager) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.393400] (map_manager) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.393657] (map_manager) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/map_subscribe.dir/src/map_subscriber_function.cpp.o\x1b[0m\n'}
+[1.401269] (map_manager) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_map_manager\n'}
+[1.401522] (-) TimerEvent: {}
+[1.501810] (-) TimerEvent: {}
+[1.573806] (map_manager) StdoutLine: {'line': b'running egg_info\n'}
+[1.574311] (map_manager) StdoutLine: {'line': b'creating map_manager.egg-info\n'}
+[1.574615] (map_manager) StdoutLine: {'line': b'writing map_manager.egg-info/PKG-INFO\n'}
+[1.574735] (map_manager) StdoutLine: {'line': b'writing dependency_links to map_manager.egg-info/dependency_links.txt\n'}
+[1.574903] (map_manager) StdoutLine: {'line': b'writing top-level names to map_manager.egg-info/top_level.txt\n'}
+[1.574960] (map_manager) StdoutLine: {'line': b"writing manifest file 'map_manager.egg-info/SOURCES.txt'\n"}
+[1.576407] (map_manager) StdoutLine: {'line': b"reading manifest file 'map_manager.egg-info/SOURCES.txt'\n"}
+[1.576763] (map_manager) StdoutLine: {'line': b"writing manifest file 'map_manager.egg-info/SOURCES.txt'\n"}
+[1.602020] (-) TimerEvent: {}
+[1.602940] (map_manager) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_map_manager_egg\n'}
+[1.699691] (map_manager) StdoutLine: {'line': b'[  5%] Built target map_manager__cpp\n'}
+[1.700424] (map_manager) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_generator_c.dir/rosidl_generator_c/map_manager/msg/detail/map_state__functions.c.o\x1b[0m\n'}
+[1.700548] (map_manager) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_generator_c.dir/rosidl_generator_c/map_manager/srv/detail/add_obstacle__functions.c.o\x1b[0m\n'}
+[1.700632] (map_manager) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_generator_c.dir/rosidl_generator_c/map_manager/srv/detail/add_victim__functions.c.o\x1b[0m\n'}
+[1.702060] (-) TimerEvent: {}
+[1.710827] (map_manager) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.711021] (map_manager) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.711077] (map_manager) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.760556] (map_manager) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libmap_manager__rosidl_generator_c.so\x1b[0m\n'}
+[1.800484] (map_manager) StdoutLine: {'line': b'[ 18%] Built target map_manager__rosidl_generator_c\n'}
+[1.802137] (-) TimerEvent: {}
+[1.811485] (map_manager) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.811697] (map_manager) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.811767] (map_manager) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.902297] (-) TimerEvent: {}
+[1.983921] (map_manager) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/map_manager/msg/map_state__type_support.cpp.o\x1b[0m\n'}
+[1.984143] (map_manager) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/map_manager/srv/add_victim__type_support.cpp.o\x1b[0m\n'}
+[1.985497] (map_manager) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/map_manager/srv/add_obstacle__type_support.cpp.o\x1b[0m\n'}
+[2.002422] (-) TimerEvent: {}
+[2.037346] (map_manager) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/map_manager/srv/detail/add_obstacle__type_support.cpp.o\x1b[0m\n'}
+[2.037734] (map_manager) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/map_manager/srv/detail/add_victim__type_support.cpp.o\x1b[0m\n'}
+[2.039506] (map_manager) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/map_manager/msg/detail/map_state__type_support.cpp.o\x1b[0m\n'}
+[2.078083] (map_manager) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/map_manager/msg/detail/dds_fastrtps/map_state__type_support.cpp.o\x1b[0m\n'}
+[2.078365] (map_manager) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/map_manager/srv/detail/dds_fastrtps/add_victim__type_support.cpp.o\x1b[0m\n'}
+[2.078490] (map_manager) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/map_manager/srv/detail/dds_fastrtps/add_obstacle__type_support.cpp.o\x1b[0m\n'}
+[2.102538] (-) TimerEvent: {}
+[2.124580] (map_manager) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/map_manager/srv/add_obstacle__type_support.cpp.o\x1b[0m\n'}
+[2.124872] (map_manager) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/map_manager/msg/map_state__type_support.cpp.o\x1b[0m\n'}
+[2.124977] (map_manager) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/map_manager/srv/add_victim__type_support.cpp.o\x1b[0m\n'}
+[2.181445] (map_manager) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libmap_manager__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.202670] (-) TimerEvent: {}
+[2.214447] (map_manager) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/map_manager/msg/detail/map_state__type_support.c.o\x1b[0m\n'}
+[2.214728] (map_manager) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/map_manager/srv/detail/add_obstacle__type_support.c.o\x1b[0m\n'}
+[2.214836] (map_manager) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/map_manager/srv/detail/add_victim__type_support.c.o\x1b[0m\n'}
+[2.259430] (map_manager) StdoutLine: {'line': b'[ 52%] Built target map_manager__rosidl_typesupport_c\n'}
+[2.276927] (map_manager) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libmap_manager__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.287154] (map_manager) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/map_manager/srv/detail/add_victim__type_support_c.cpp.o\x1b[0m\n'}
+[2.287401] (map_manager) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/map_manager/msg/detail/map_state__type_support_c.cpp.o\x1b[0m\n'}
+[2.287511] (map_manager) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/map_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/map_manager/srv/detail/add_obstacle__type_support_c.cpp.o\x1b[0m\n'}
+[2.302800] (-) TimerEvent: {}
+[2.325776] (map_manager) StdoutLine: {'line': b'[ 60%] Built target map_manager__rosidl_typesupport_introspection_c\n'}
+[2.383313] (map_manager) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmap_manager__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.402928] (-) TimerEvent: {}
+[2.459499] (map_manager) StdoutLine: {'line': b'[ 61%] Built target map_manager__rosidl_typesupport_cpp\n'}
+[2.494857] (map_manager) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/map_publish.dir/src/map_publisher_function.cpp.o\x1b[0m\n'}
+[2.495175] (map_manager) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/add_victim.dir/src/add_victim.cpp.o\x1b[0m\n'}
+[2.495311] (map_manager) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/add_obstacle.dir/src/add_obstacle.cpp.o\x1b[0m\n'}
+[2.506488] (-) TimerEvent: {}
+[2.607091] (-) TimerEvent: {}
+[2.634627] (map_manager) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmap_manager__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.707248] (-) TimerEvent: {}
+[2.709564] (map_manager) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmap_manager__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.723734] (map_manager) StdoutLine: {'line': b'[ 70%] Built target map_manager__rosidl_typesupport_introspection_cpp\n'}
+[2.776499] (map_manager) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmap_manager__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.790300] (map_manager) StdoutLine: {'line': b'[ 72%] Built target map_manager__rosidl_typesupport_fastrtps_cpp\n'}
+[2.807404] (-) TimerEvent: {}
+[2.852119] (map_manager) StdoutLine: {'line': b'[ 72%] Built target map_manager__rosidl_typesupport_fastrtps_c\n'}
+[2.874746] (map_manager) StdoutLine: {'line': b'[ 72%] Built target map_manager\n'}
+[2.897886] (map_manager) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.907432] (-) TimerEvent: {}
+[3.007715] (-) TimerEvent: {}
+[3.108097] (-) TimerEvent: {}
+[3.208459] (-) TimerEvent: {}
+[3.308798] (-) TimerEvent: {}
+[3.364865] (map_manager) StdoutLine: {'line': b'[ 74%] Built target map_manager__py\n'}
+[3.388404] (map_manager) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_generator_py.dir/rosidl_generator_py/map_manager/srv/_add_victim_s.c.o\x1b[0m\n'}
+[3.388708] (map_manager) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_generator_py.dir/rosidl_generator_py/map_manager/msg/_map_state_s.c.o\x1b[0m\n'}
+[3.388829] (map_manager) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_generator_py.dir/rosidl_generator_py/map_manager/srv/_add_obstacle_s.c.o\x1b[0m\n'}
+[3.408933] (-) TimerEvent: {}
+[3.503054] (map_manager) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/map_manager/libmap_manager__rosidl_generator_py.so\x1b[0m\n'}
+[3.509010] (-) TimerEvent: {}
+[3.551346] (map_manager) StdoutLine: {'line': b'[ 81%] Built target map_manager__rosidl_generator_py\n'}
+[3.572212] (map_manager) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/map_manager/_map_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.572458] (map_manager) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/map_manager/_map_manager_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.572558] (map_manager) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/map_manager__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/map_manager/_map_manager_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.609144] (-) TimerEvent: {}
+[3.678846] (map_manager) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/map_manager/map_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.679095] (map_manager) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/map_manager/map_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.679170] (map_manager) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/map_manager/map_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.709251] (-) TimerEvent: {}
+[3.719308] (map_manager) StdoutLine: {'line': b'[ 92%] Built target map_manager__rosidl_typesupport_c__pyext\n'}
+[3.719564] (map_manager) StdoutLine: {'line': b'[ 92%] Built target map_manager__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.719654] (map_manager) StdoutLine: {'line': b'[ 92%] Built target map_manager__rosidl_typesupport_introspection_c__pyext\n'}
+[3.809389] (-) TimerEvent: {}
+[3.909808] (-) TimerEvent: {}
+[4.010230] (-) TimerEvent: {}
+[4.110640] (-) TimerEvent: {}
+[4.211016] (-) TimerEvent: {}
+[4.311398] (-) TimerEvent: {}
+[4.411805] (-) TimerEvent: {}
+[4.512132] (-) TimerEvent: {}
+[4.612483] (-) TimerEvent: {}
+[4.712838] (-) TimerEvent: {}
+[4.813189] (-) TimerEvent: {}
+[4.913618] (-) TimerEvent: {}
+[5.014042] (-) TimerEvent: {}
+[5.114441] (-) TimerEvent: {}
+[5.214748] (-) TimerEvent: {}
+[5.315091] (-) TimerEvent: {}
+[5.415483] (-) TimerEvent: {}
+[5.420482] (map_manager) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable add_victim\x1b[0m\n'}
+[5.423419] (map_manager) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable add_obstacle\x1b[0m\n'}
+[5.515629] (-) TimerEvent: {}
+[5.545363] (map_manager) StdoutLine: {'line': b'[ 96%] Built target add_obstacle\n'}
+[5.545685] (map_manager) StdoutLine: {'line': b'[ 96%] Built target add_victim\n'}
+[5.615725] (-) TimerEvent: {}
+[5.716107] (-) TimerEvent: {}
+[5.816445] (-) TimerEvent: {}
+[5.916833] (-) TimerEvent: {}
+[6.017154] (-) TimerEvent: {}
+[6.117473] (-) TimerEvent: {}
+[6.217790] (-) TimerEvent: {}
+[6.318190] (-) TimerEvent: {}
+[6.418611] (-) TimerEvent: {}
+[6.518944] (-) TimerEvent: {}
+[6.619277] (-) TimerEvent: {}
+[6.719662] (-) TimerEvent: {}
+[6.820041] (-) TimerEvent: {}
+[6.920421] (-) TimerEvent: {}
+[7.020797] (-) TimerEvent: {}
+[7.121152] (-) TimerEvent: {}
+[7.221507] (-) TimerEvent: {}
+[7.301441] (map_manager) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable map_publish\x1b[0m\n'}
+[7.321638] (-) TimerEvent: {}
+[7.421970] (-) TimerEvent: {}
+[7.468768] (map_manager) StdoutLine: {'line': b'[ 98%] Built target map_publish\n'}
+[7.522056] (-) TimerEvent: {}
+[7.622397] (-) TimerEvent: {}
+[7.722722] (-) TimerEvent: {}
+[7.823093] (-) TimerEvent: {}
+[7.923467] (-) TimerEvent: {}
+[7.973994] (map_manager) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable map_subscribe\x1b[0m\n'}
+[8.023718] (-) TimerEvent: {}
+[8.124037] (-) TimerEvent: {}
+[8.178937] (map_manager) StdoutLine: {'line': b'[100%] Built target map_subscribe\n'}
+[8.190199] (map_manager) CommandEnded: {'returncode': 0}
+[8.190984] (map_manager) JobProgress: {'identifier': 'map_manager', 'progress': 'install'}
+[8.191727] (map_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager'], 'cwd': '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'audric'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/audric'), ('OLDPWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2117'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5936'), ('COLCON_PREFIX_PATH', '/home/audric/handson1_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'audric'), ('JOURNAL_STREAM', '8:15185'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'audric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/LordPavilion:@/tmp/.ICE-unix/1889,unix/LordPavilion:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', '863375f461cb41c886b1450e86522e9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:da0d3090-576d-4c5e-bcb3-5ca57662d828'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/audric/handson1_ws/install/drone_controller_package:/opt/ros/humble')]), 'shell': False}
+[8.197128] (map_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.197290] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/ament_index/resource_index/rosidl_interfaces/map_manager\n'}
+[8.197420] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager\n'}
+[8.197539] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg\n'}
+[8.197636] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail\n'}
+[8.197703] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__functions.c\n'}
+[8.197803] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.h\n'}
+[8.197861] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__functions.h\n'}
+[8.197922] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__struct.h\n'}
+[8.198022] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.198085] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/map_state.h\n'}
+[8.198146] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv\n'}
+[8.198243] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail\n'}
+[8.198310] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__functions.h\n'}
+[8.198365] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__struct.h\n'}
+[8.198409] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__functions.c\n'}
+[8.198444] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.h\n'}
+[8.198466] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.h\n'}
+[8.198499] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__struct.h\n'}
+[8.198577] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__functions.h\n'}
+[8.198658] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__functions.c\n'}
+[8.198751] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/add_obstacle.h\n'}
+[8.198822] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/add_victim.h\n'}
+[8.198957] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/library_path.sh\n'}
+[8.199050] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/library_path.dsv\n'}
+[8.199169] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_generator_c.so\n'}
+[8.199394] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_generator_c.so" to ""\n'}
+[8.199481] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager\n'}
+[8.199517] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg\n'}
+[8.199547] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail\n'}
+[8.199580] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_fastrtps_c.h\n'}
+[8.199649] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.199716] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv\n'}
+[8.199750] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail\n'}
+[8.199786] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_fastrtps_c.h\n'}
+[8.199844] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[8.199943] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_fastrtps_c.so\n'}
+[8.200159] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.200191] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager\n'}
+[8.200223] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg\n'}
+[8.200256] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail\n'}
+[8.200284] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__builder.hpp\n'}
+[8.200345] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__traits.hpp\n'}
+[8.200432] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.hpp\n'}
+[8.200506] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__struct.hpp\n'}
+[8.200588] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.200662] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/map_state.hpp\n'}
+[8.200729] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv\n'}
+[8.200758] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail\n'}
+[8.200786] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__traits.hpp\n'}
+[8.200862] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__struct.hpp\n'}
+[8.200946] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__traits.hpp\n'}
+[8.201031] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.hpp\n'}
+[8.201105] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__builder.hpp\n'}
+[8.201181] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__struct.hpp\n'}
+[8.201265] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__builder.hpp\n'}
+[8.201340] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.hpp\n'}
+[8.201421] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/add_obstacle.hpp\n'}
+[8.201493] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/add_victim.hpp\n'}
+[8.201577] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager\n'}
+[8.201615] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg\n'}
+[8.201645] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail\n'}
+[8.201679] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/dds_fastrtps\n'}
+[8.201710] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.201788] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.201860] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv\n'}
+[8.201892] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail\n'}
+[8.201925] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/dds_fastrtps\n'}
+[8.201969] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.202052] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.202155] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.202398] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.202439] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager\n'}
+[8.202476] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg\n'}
+[8.202504] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail\n'}
+[8.202526] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.c\n'}
+[8.202593] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_introspection_c.h\n'}
+[8.202672] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.202741] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv\n'}
+[8.202773] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail\n'}
+[8.202802] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.c\n'}
+[8.202881] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.c\n'}
+[8.202968] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_introspection_c.h\n'}
+[8.203048] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_introspection_c.h\n'}
+[8.203144] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_introspection_c.so\n'}
+[8.203348] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.203396] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_c.so\n'}
+[8.203669] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_c.so" to ""\n'}
+[8.203732] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager\n'}
+[8.203783] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg\n'}
+[8.203813] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail\n'}
+[8.203839] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.203886] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/msg/detail/map_state__type_support.cpp\n'}
+[8.203940] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv\n'}
+[8.203968] (map_manager) StdoutLine: {'line': b'-- Up-to-date: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail\n'}
+[8.204010] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.204050] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_victim__type_support.cpp\n'}
+[8.204137] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__type_support.cpp\n'}
+[8.204226] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/include/map_manager/map_manager/srv/detail/add_obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.204334] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_introspection_cpp.so\n'}
+[8.204590] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.204631] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_cpp.so\n'}
+[8.204816] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_typesupport_cpp.so" to ""\n'}
+[8.204849] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/pythonpath.sh\n'}
+[8.204938] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/pythonpath.dsv\n'}
+[8.205021] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info\n'}
+[8.205141] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.205219] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.205290] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.205368] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.205466] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager\n'}
+[8.205527] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/_map_manager_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.205653] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.205747] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/_map_manager_s.ep.rosidl_typesupport_c.c\n'}
+[8.205849] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.205950] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg\n'}
+[8.206024] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/_map_state.py\n'}
+[8.206117] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/__init__.py\n'}
+[8.206196] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/_map_state_s.c\n'}
+[8.206340] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/__init__.py\n'}
+[8.206798] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.207658] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv\n'}
+[8.208041] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_obstacle.py\n'}
+[8.208161] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_victim.py\n'}
+[8.208242] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/__init__.py\n'}
+[8.208298] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_victim_s.c\n'}
+[8.208389] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_obstacle_s.c\n'}
+[8.208465] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/_map_manager_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.208558] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/libmap_manager__rosidl_generator_py.so\n'}
+[8.224119] (-) TimerEvent: {}
+[8.229588] (map_manager) StdoutLine: {'line': b"Listing '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager'...\n"}
+[8.229743] (map_manager) StdoutLine: {'line': b"Compiling '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/__init__.py'...\n"}
+[8.229823] (map_manager) StdoutLine: {'line': b"Listing '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg'...\n"}
+[8.229888] (map_manager) StdoutLine: {'line': b"Compiling '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/__init__.py'...\n"}
+[8.229946] (map_manager) StdoutLine: {'line': b"Compiling '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/msg/_map_state.py'...\n"}
+[8.230001] (map_manager) StdoutLine: {'line': b"Listing '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv'...\n"}
+[8.230054] (map_manager) StdoutLine: {'line': b"Compiling '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/__init__.py'...\n"}
+[8.230106] (map_manager) StdoutLine: {'line': b"Compiling '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_obstacle.py'...\n"}
+[8.230159] (map_manager) StdoutLine: {'line': b"Compiling '/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/srv/_add_victim.py'...\n"}
+[8.232507] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.233092] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.233395] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.233592] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.233730] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.233980] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/local/lib/python3.10/dist-packages/map_manager/map_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.234104] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_generator_py.so\n'}
+[8.234273] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/libmap_manager__rosidl_generator_py.so" to ""\n'}
+[8.234354] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/msg/MapState.idl\n'}
+[8.234469] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddObstacle.idl\n'}
+[8.234494] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddVictim.idl\n'}
+[8.234529] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/msg/MapState.msg\n'}
+[8.234598] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddObstacle.srv\n'}
+[8.234691] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddObstacle_Request.msg\n'}
+[8.234779] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddObstacle_Response.msg\n'}
+[8.234892] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddVictim.srv\n'}
+[8.234955] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddVictim_Request.msg\n'}
+[8.235043] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/srv/AddVictim_Response.msg\n'}
+[8.235176] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/map_publish\n'}
+[8.236573] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/map_publish" to ""\n'}
+[8.236640] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/map_subscribe\n'}
+[8.239093] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/map_subscribe" to ""\n'}
+[8.239242] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/add_obstacle\n'}
+[8.239650] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/add_obstacle" to ""\n'}
+[8.239785] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/add_victim\n'}
+[8.240170] (map_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/lib/map_manager/add_victim" to ""\n'}
+[8.240308] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/ament_index/resource_index/package_run_dependencies/map_manager\n'}
+[8.240428] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/ament_index/resource_index/parent_prefix_path/map_manager\n'}
+[8.240482] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/ament_prefix_path.sh\n'}
+[8.240526] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/ament_prefix_path.dsv\n'}
+[8.240613] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/path.sh\n'}
+[8.240703] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/environment/path.dsv\n'}
+[8.240792] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/local_setup.bash\n'}
+[8.240883] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/local_setup.sh\n'}
+[8.240970] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/local_setup.zsh\n'}
+[8.241055] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/local_setup.dsv\n'}
+[8.241145] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/package.dsv\n'}
+[8.241263] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/ament_index/resource_index/packages/map_manager\n'}
+[8.241395] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_cExport.cmake\n'}
+[8.241498] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.241593] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.241688] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.241787] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_cppExport.cmake\n'}
+[8.241887] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.241981] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.242076] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.242170] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.242289] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cExport.cmake\n'}
+[8.242396] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.242504] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.242598] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.242698] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cppExport.cmake\n'}
+[8.242793] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_manager__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.242902] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_pyExport.cmake\n'}
+[8.242992] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/export_map_manager__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.243085] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/rosidl_cmake-extras.cmake\n'}
+[8.243174] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.243268] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.243355] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.243457] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.243544] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.243633] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.243725] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_managerConfig.cmake\n'}
+[8.243802] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/cmake/map_managerConfig-version.cmake\n'}
+[8.243889] (map_manager) StdoutLine: {'line': b'-- Installing: /home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager/share/map_manager/package.xml\n'}
+[8.245953] (map_manager) CommandEnded: {'returncode': 0}
+[8.254600] (map_manager) JobEnded: {'identifier': 'map_manager', 'rc': 0}
+[8.255081] (-) EventReactorShutdown: {}

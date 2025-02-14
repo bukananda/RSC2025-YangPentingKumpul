@@ -1,8 +1,8 @@
-# Install script for directory: /home/aqib/ros_learning/ros2_3/build/map_manager/map_manager__py
+# Install script for directory: /home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager/map_manager__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aqib/ros_learning/ros2_3/install/map_manager")
+  set(CMAKE_INSTALL_PREFIX "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ebb6dbd42ce65e190093.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "map_manager__py",
+					"jsonFile" : "directory-map_manager__py-d06932d0affb903054f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager/map_manager__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "map_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_obstacle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_obstacle-f76c89501fb01f4d845e.json",
+					"name" : "add_obstacle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_victim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_victim-693500ead68a9666c95a.json",
+					"name" : "add_victim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_map_manager_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_map_manager_egg-326db9a01c2cf559d54d.json",
+					"name" : "ament_cmake_python_build_map_manager_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_map_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_map_manager-173fb6ed3663373368a4.json",
+					"name" : "ament_cmake_python_copy_map_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager-86bf1258a74936b04873.json",
+					"name" : "map_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__cpp-731ac40638d645a85c5e.json",
+					"name" : "map_manager__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "map_manager__py::@e04a654b50e40c7ad7cd",
+					"jsonFile" : "target-map_manager__py-e29bf88be20dcb7e7c4b.json",
+					"name" : "map_manager__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_generator_c-b47c887b89cc19a87d49.json",
+					"name" : "map_manager__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_generator_py-8affcf4832622a042f27.json",
+					"name" : "map_manager__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_c-3fc8d69c319d3bed13f1.json",
+					"name" : "map_manager__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_c__pyext-71da9cd7ff138738ea1a.json",
+					"name" : "map_manager__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_cpp-6bee7040db9fd8c146c4.json",
+					"name" : "map_manager__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_fastrtps_c-abc314ec8bc05abc72cc.json",
+					"name" : "map_manager__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_fastrtps_c__pyext-b906b5d87792c88d3018.json",
+					"name" : "map_manager__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_fastrtps_cpp-1b62836ee6d035965e4f.json",
+					"name" : "map_manager__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_introspection_c-eb33f7762e11d77ca9b6.json",
+					"name" : "map_manager__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_introspection_c__pyext-a3bb9190d45e5004df41.json",
+					"name" : "map_manager__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager__rosidl_typesupport_introspection_cpp-b12067a609206f28db4a.json",
+					"name" : "map_manager__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_manager_uninstall-b0ef2d80f6772d1a7307.json",
+					"name" : "map_manager_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_publish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_publish-f5a0677afeb92283dd47.json",
+					"name" : "map_publish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_subscribe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_subscribe-c736d06685e56a8863de.json",
+					"name" : "map_subscribe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-24527d6db963b079c8ae.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager",
+		"source" : "/home/audric/Documents/GitHub/Tugas-Aksantara/src/map_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

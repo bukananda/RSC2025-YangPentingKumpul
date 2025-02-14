@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/aqib/ros_learning/ros2_3/install/map_manager")
+  set(install_space "/home/audric/Documents/GitHub/Tugas-Aksantara/install/map_manager")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/aqib/ros_learning/ros2_3/build/map_manager/install_manifest.txt")
+set(install_manifest "/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

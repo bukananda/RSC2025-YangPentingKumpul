@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"map_manager\" -Dmap_manager__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/aqib/ros_learning/ros2_3/build/map_manager/rosidl_generator_c -I/home/aqib/ros_learning/ros2_3/build/map_manager/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager/rosidl_generator_c -I/home/audric/Documents/GitHub/Tugas-Aksantara/build/map_manager/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -Wextra
 
