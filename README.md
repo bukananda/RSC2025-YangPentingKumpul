@@ -5,4 +5,4 @@ Anggota kelompok:
 2. Danny Rahmat Pratama
 3. Audric Yusuf Maynard Simatupang
 4. Muhammad Akmal
-5. Nathanael Shane Bennet
+5. Andri Nurdianto
