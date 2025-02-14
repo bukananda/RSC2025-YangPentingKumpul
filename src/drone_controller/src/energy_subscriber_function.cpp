@@ -9,7 +9,7 @@ class EnergySubscriber : public rclcpp::Node {
 public:
     EnergySubscriber() : Node("energy_subscriber") {
         subscription_ = this->create_subscription<std_msgs::msg::Int32>(
-            "current_energy", 10, std::bind(&EnergySubscriber::energy_callback, this, std::placeholders::_1));
+            "/drone_status", 10, std::bind(&EnergySubscriber::energy_callback, this, std::placeholders::_1));
     }
 
 private:
